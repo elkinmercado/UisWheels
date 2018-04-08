@@ -34,6 +34,11 @@ public class Servicio
    
    public void CalificarServicio(){} 
    
-   
+ //------------------Metodos generales-----------------------
+ public int getCuposDisponibles(){return 0;}
+ 
+ public int TotalCupos(){return 0;}
+ 
+ 
    
 }
