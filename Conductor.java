@@ -4,9 +4,10 @@ public class Conductor extends Usuario
 {
  private Vehiculo vehiculo;
  
- private Servicio servicio; 
  
- private List<Ruta> rutas;
+ private Ruta rutas;
+ 
+ private Gps gps;
     
    public void CancelarServicio(){}
    
@@ -15,5 +16,9 @@ public class Conductor extends Usuario
    private void ModificarServicio(){}
  
    private void ModificarRuta(){}
+   
+   
+    //regresa su posicion actual
+   public void PosicionActual(){}
  
 }

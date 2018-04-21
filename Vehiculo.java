@@ -1,7 +1,9 @@
 
 public class Vehiculo
 {
-   //atributos de vehiculo
-   
-   //entre estos no se encuentras el numemero de cupos 
+  public boolean agregarVehiculo(){return true;};
+  public boolean modifVehiculo(){return true;};
+  
+  public boolean DeleteVehiculo(){return true;};
+  
 }

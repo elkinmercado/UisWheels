@@ -1,33 +1,43 @@
+import java.util.List;
 
-/**
- * Write a description of class Ruta here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class Ruta
 {
-    // instance variables - replace the example below with your own
-    private int x;
 
-    /**
-     * Constructor for objects of class Ruta
-     */
-    public Ruta()
-    {
-        // initialise instance variables
-        x = 0;
-    }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+  //numero de cupos
+  private int cupos;
+  
+  //prestante del servicio
+  private Conductor conductor;
+  
+  //lista de pasajeros
+  List<Pasajero> pasajeros;
+  
+  //coleccion de rutas por donde se va a pasar
+  List<Ruta> rutas;
+  
+  private Vehiculo vehiculo;
+  
+  //Respuestas a acciones del  Conductor
+  
+  public void CancelarServicio(){}
+   
+   public void CalificarUsuarios(){} 
+   
+   private void ModificarServicio(){}
+   
+ //------------------------------------- 
+  
+ //metodos y respuestas a acciones de pasajeros 
+    public void CancelarCupo(){}
+   
+   public void CalificarServicio(){} 
+   
+ //------------------Metodos generales-----------------------
+ public int getCuposDisponibles(){return 0;}
+ 
+ public int TotalCupos(){return 0;}
+ 
+ 
 }

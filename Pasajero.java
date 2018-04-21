@@ -1,11 +1,16 @@
 
 public class Pasajero extends Usuario
 {
-   public Servicio servicio; 
+  
+   
+   private Gps gps;
     
    public void CancelarCupo(){}
    
    
    public void CalificarServicio(){} 
+   
+   //regresa su posicion actual
+   public void PosicionActual(){}
        
 }
