@@ -2,10 +2,8 @@ import java.util.List;
 
 public class Conductor extends Usuario
 {
- private Vehiculo vehiculo;
  
- 
- private Ruta rutas;
+ private List <Vehiculo> vehiculos; //Lista de vehiculos
  
  private Gps gps;
     

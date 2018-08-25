@@ -1,7 +1,7 @@
 import java.util.List;
 
 
-public class Ruta
+public class Servicio
 {
 
 
@@ -15,7 +15,7 @@ public class Ruta
   List<Pasajero> pasajeros;
   
   //coleccion de rutas por donde se va a pasar
-  List<Ruta> rutas;
+  List<String> rutas;
   
   private Vehiculo vehiculo;
   
